@@ -50,7 +50,7 @@ header nav {
 
 nav ul li {
   display: inline-block;
-  margin-right: 16px;
+  margin-left: 1rem;
 }
 
 ul li a {
@@ -58,5 +58,49 @@ ul li a {
 }
 /*banner*/
 .banner {
-  background-color: #D8D8D8
+  background-color: #D8D8D8;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner img {
+  height: auto;
+  width: 60%;
+  margin-right: 2.5rem;
+  background-color: #D8D8D8;
+}
+
+.banner .info h1 {
+  font-size: 2rem;
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner .info p {
+  margin-bottom: 1rem;
+}
+.banner .info a {
+  background-color: #4a4a4a;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+}
+
+/*information*/
+.main {
+  display: inline-flex;
+}
+
+.main .practice {
+  padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.main .practice h2 {
+  margin: 2rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  font-weight: bold;
 }
