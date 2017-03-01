@@ -8,52 +8,60 @@
   <body>
     <!--header-->
     <header>
-      <div class="logo">
+      <div class="logo desktop">
         <img src="resources/capstone_colmar_assets/images/ic-logo.svg" />
-        <span>COLMARACADEMY</span>
+        <span class="colmar">colmar</span>
+        <span class="academy">academy</span>
       </div>
         <!--nav-->
-        <nav class="menu">
-          <span>On campus</span>
-          <span>Online</span>
-          <span>On campus</span>
-          <span>Sign in</span>
-        </nav>
+        <nav>
+          <ul>
+            <li><a href="#">On campus</a></li>
+              <li><a href="#">Online</a></li>
+              <li><a href="#">For Companies</a></li>
+              <li><a href="#">Sign in</a></li>
+        </li>
         <!--add mobile-->
+        <div class="mobile logo-mobile">
+          <img src="resources/capstone_colmar_assets/images/ic-logo.svg" />
+          <img src="resources/capstone_colmar_assets/images/ic-on-campus.svg" />
+          <img src="resources/capstone_colmar_assets/images/ic-online.svg" />
+          <img src="resources/capstone_colmar_assets/images/ic-login.svg" />
+        </div>
     </header>
     <!--banner-->
     <div class="banner">
       <img src="resources/capstone_colmar_assets/images/banner.jpg" />
-      <h1>Learn something new every day</h1>
-      <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h3>
-      <div class="button">
-        Start here
+      <div class="info">
+        <h1>Learn something new every day</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <a href="#" class="button">Start here</a>
       </div>
     </div>
     <!--main-->
     <div class="main">
-      <div class="practice">
-        <h2>It dosen't hurt to keep practicing</h2>
+      <div class="practice desktop">
+        <h2>It doesn't hurt to keep practicing</h2>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effictur dolor consequat, tristique ligula."</p>
         <span>Emamuel, Sr Strategist at Hiring.com</span>
       </div>
       <!--column-->
       <div class="column">
-        <div class="orientation">
+        <div class="right">
           <img src="resources/capstone_colmar_assets/images/information-orientation.jpg" class="orientation-img" />
           <!--add mobile-->
           <h3>Orientation date</h3>
           <span>Tue 10/11 & Wed 10/12: 8am-3pm</span>
           <span><a href="#">Read more</a></span>
         </div>
-        <div class="campus">
+        <div class="right">
         <img src="resources/capstone_colmar_assets/images/information-campus.jpg" class="campus-img" />
         <!--add mobile-->
         <h3>Our campus</h3>
         <span>Find which campus is close by you</span>
         <span><a href="#">Read more</a></span>
         </div>
-        <div class="lecture">
+        <div class="right">
           <img src="resources/capstone_colmar_assets/images/information-guest-lecture.jpg" class="lecture-img" />
           <!--add mobile-->
           <h3>Our guest lecture</h3>
@@ -64,47 +72,59 @@
       <div class="learning">
         <h2>Start learning</h2>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-software.jpg" />
-          <h3>Software engineering</h3>
-          <span>COURSES</span>
-          <p>Web Development, Mobile Development, iOT, API</p>
+          <img src="resources/capstone_colmar_assets/images/course-software.jpg" class="desktop" />
+          <div class="course-info">
+            <h3>Software engineering</h3>
+            <span>COURSES</span>
+            <p>Web Development, Mobile Development, iOT, API</p>
+          </div>
         </div>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-computer-art.jpg" />
-          <h3>Computer art</h3>
-          <span>COURSES</span>
-          <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          <img src="resources/capstone_colmar_assets/images/course-computer-art.jpg" class="desktop" />
+          <div class="course-info">
+            <h3>Computer art</h3>
+            <span>COURSES</span>
+            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          </div>
         </div>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-design.jpg" />
-          <h3>Design</h3>
-          <span>COURSES</span>
-          <p>User Experience Design, User Research, Visual Design</p>
+          <img src="resources/capstone_colmar_assets/images/course-design.jpg" class="desktop" />
+          <div class="course-info">
+            <h3>Design</h3>
+            <span>COURSES</span>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
         </div>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-data.jpg" />
-          <h3>Data</h3>
-          <span>COURSES</span>
-          <p>Data Science, Big Data, SQL, Data Visualization</p>
+          <img src="resources/capstone_colmar_assets/images/course-data.jpg" class="desktop" />
+          <div class="course-info">
+            <h3>Data</h3>
+            <span>COURSES</span>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
         </div>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-business.jpg" />
-          <h3>Business</h3>
-          <span>COURSES</span>
-          <p>Product Development, Business Development, Startup</p>
+          <img src="resources/capstone_colmar_assets/images/course-business.jpg" class="desktop"/>
+          <div class="course-info">
+            <h3>Business</h3>
+            <span>COURSES</span>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
         </div>
         <div class="course">
-          <img src="resources/capstone_colmar_assets/images/course-marketing.jpg" />
-          <h3>Marketing</h3>
-          <span>COURSES</span>
-          <p>Analytics, Content Marketing, Mobile Marketing</p>
+          <img src="resources/capstone_colmar_assets/images/course-marketing.jpg" class="desktop" />
+          <div class="course-info">
+            <h3>Marketing</h3>
+            <span>COURSES</span>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
         </div>
       </div>
       <div class="thesis">
         <div class="urban">
           <h2>Thesis exhibit</h2>
           <video src="resources/capstone_colmar_assets/videos/thesis.mp4" controls>video not supported</video>
-          <h3>Reimagine Uraban</h3>
+          <h2 class="desktop">Reimagine Uraban</h2>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
         <div class="thesis-column">
