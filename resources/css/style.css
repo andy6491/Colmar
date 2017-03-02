@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body{
+html, body {
   width: 100%;
   font-size: 16px;
   max-width: 60rem;
@@ -39,8 +39,8 @@ header {
 }
 
 .logo img {
-  padding-left: 24px;
-  height: 40px;
+  padding-left: 1.5rem;
+  height: 2.5rem;
 }
 
 header nav {
@@ -103,4 +103,46 @@ ul li a {
   font-size: 1.5rem;
   color: #4a4a4a;
   font-weight: bold;
+}
+
+.main .practice p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.main .practice .hiring {
+  position: absolute;
+  padding-bottom: 1rem;
+}
+
+.main .column {
+  min-width: 26.4375rem;
+  border-left: 1px solid #e0e2e2;
+  height: 4rem;
+}
+
+.main .column .right {
+  display: flex;
+  align-items: center;
+}
+
+.main .column .first {
+  border-bottom: 1px solid #e0e2e2;
+}
+
+.main .column .right img {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.main .column .last {
+  background-color: #d8d8d8;
+}
+
+.main .column .right a {
+  color: #4a90e2;
+  font-weight: 300;
+  text-decoration: none;
 }
