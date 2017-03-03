@@ -253,3 +253,17 @@ ul li a {
 .fisma {
   background-color: #d8d8d8;
 }
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem
+  font-weight: 300;
+  border-top: 1px solid #828282;
+}
+
+footer ul li {
+  display: inline-flex;
+  padding-left: 0.5rem;
+}
