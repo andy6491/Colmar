@@ -106,6 +106,30 @@ ul li a {
   display: block;
 }
 
+@media only and (max-width: 480px) {
+  .banner {
+    flex-direction: flex;
+    padding: 0;
+  }
+
+  .banner img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner .info {
+    padding: 2rem 1rem;
+  }
+
+  .banner .info h1 {
+    margin-bottom: 2rem;
+  }
+
+  .banner .info p{
+    margin-bottom: 1.5rem;
+  }
+}
+
 /*information*/
 .main {
   display: inline-flex;
